@@ -1,0 +1,211 @@
+body {
+  color: black;
+  background-color: #fff;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.header {
+  font-family: 'Raleway', sans-serif;
+}
+
+.hr-style {
+  border-width: 2px;
+  border-color: #00001f;
+}
+
+.main-div {
+  width: 100%;
+}
+
+.main-div .toggleItem-column {
+  padding-left: 50px;
+  padding-right: 40px;
+}
+
+.main-div .toggleItem-column .toggleBtn-c1-p1 {
+  position: relative;
+  background-color: #fff;
+  border: 2px solid #2905cc;
+  border-radius: 4px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.main-div .toggleItem-column .toggleBtn-c1-p1 svg {
+  fill: #0836b6;
+  height: 25px;
+  width: 25px;
+  background-position: center;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.main-div .toggleItem-column .toggleBtn-c1-p1 svg:hover {
+  -webkit-transition: -webkit-transform 0.25 s ease;
+  transition: -webkit-transform 0.25 s ease;
+  transition: transform 0.25 s ease;
+  transition: transform 0.25 s ease, -webkit-transform 0.25 s ease;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.main-div .toggleItem-column .toggleBtn-c1-p1 a {
+  text-decoration: none;
+  font-weight: bold;
+  padding-left: 10px;
+  color: #000;
+}
+
+.main-div .toggleItem-column .toggleBtn-c1-p1:hover {
+  background-color: #b4b4b4;
+  color: black;
+}
+
+.main-div .toggleItem-column .toggleColumn1-p1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: small;
+  color: #3f3f3f;
+}
+
+.main-div .toggleItem-column .toggleColumn1-p2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: small;
+  color: #3f3f3f;
+}
+
+.main-div .toggleItem-row1 {
+  display: block;
+  margin: 25px;
+}
+
+.main-div .toggleItem-row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-div .column1-part1-fonts {
+  font-family: 'Merriweather', serif;
+}
+
+.main-div .column1-part2-fonts {
+  font-family: 'Merriweather', serif;
+}
+
+.main-div .toggle_show1-only {
+  display: none;
+}
+
+.main-div .toggle_show2-only {
+  display: none;
+}
+
+.main-div .section2 a {
+  text-decoration: none;
+  font-weight: bold;
+  padding-left: 10px;
+  color: #830000;
+}
+
+.main-div .section2 .section2-btn {
+  padding-top: 40px;
+  max-width: 40%;
+  position: relative;
+  border-bottom: 2px solid #2905cc;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.main-div .section2 .section2-btn svg {
+  padding-right: 25px;
+  fill: #0836b6;
+  height: 25px;
+  width: 25px;
+  background-position: center;
+  vertical-align: middle;
+  display: inline-block;
+  position: relative;
+}
+
+.main-div .section2 .section2-btn svg:hover {
+  -webkit-transition: -webkit-transform 0.25 s ease;
+  transition: -webkit-transform 0.25 s ease;
+  transition: transform 0.25 s ease;
+  transition: transform 0.25 s ease, -webkit-transform 0.25 s ease;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.main-div .section2 .section2-p2 {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .main-div .toggleItem-column {
+    padding: 30px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main-div .toggleItem-row1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+  .main-div .toggleItem-row1 .toggleBtn-c1-p1 {
+    position: relative;
+    background-color: #fff;
+    border: 2px solid #2905cc;
+    border-radius: 4px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+  }
+  .main-div .toggleItem-row1 .toggleBtn-c1-p1 svg {
+    fill: #0836b6;
+    height: 25px;
+    width: 25px;
+    background-position: center;
+    vertical-align: middle;
+    display: inline-block;
+  }
+  .main-div .toggleItem-row1 .toggleBtn-c1-p1 svg:hover {
+    -webkit-transition: -webkit-transform 0.25 s ease;
+    transition: -webkit-transform 0.25 s ease;
+    transition: transform 0.25 s ease;
+    transition: transform 0.25 s ease, -webkit-transform 0.25 s ease;
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  .main-div .toggleItem-row1 .toggleBtn-c1-p1 a {
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 10px;
+    color: #000;
+  }
+  .main-div .toggleItem-row1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+  .hr-style {
+    width: 80%;
+  }
+}
+/*# sourceMappingURL=scss.css.map */

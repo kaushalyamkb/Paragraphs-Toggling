@@ -1,0 +1,171 @@
+body{
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.header{
+    font-family: 'Raleway', sans-serif;
+}
+.hr-style{
+    border-width: 2px;
+    border-color: rgb(0, 0, 31);
+}
+.main-div{
+    width: 100%;
+    .toggleItem-column {
+        padding-left: 50px;
+        padding-right: 40px;
+        
+        .toggleBtn-c1-p1{
+            position: relative;
+            background-color: #fff;
+            border: 2px solid rgb(41, 5, 204);
+            border-radius: 4px;
+            align-items: center;
+            cursor:pointer;
+            svg{
+                fill: rgb(8, 54, 182);
+                height: 25px;
+                width: 25px;
+                background-position: center;
+                vertical-align:middle;
+                display: inline-block;
+            }
+            svg:hover{
+                transition: transform 0.25 s ease;
+                transform: scale(1.50); // help to scale the eliment
+            
+            }
+            a{
+                text-decoration: none;
+                font-weight: bold;
+                padding-left: 10px;
+                color: #000;
+            }
+        }
+        .toggleBtn-c1-p1:hover{
+            background-color: rgb(180, 180, 180);
+            color: rgb(0, 0, 0);
+        }
+        .toggleColumn1-p1{
+            font-family: 'Raleway', sans-serif;
+            font-size: small;
+            color: rgb(63, 63, 63);
+        }
+        .toggleColumn1-p2{
+            font-family: 'Raleway', sans-serif;
+            font-size: small;
+            color: rgb(63, 63, 63);
+        }
+    }   
+    .toggleItem-row1{
+        display: block;
+        margin: 25px;
+    }
+    .toggleItem-row1:after {
+        content: "";
+        display: table;
+        clear: both;
+    }  
+    .column1-part1-fonts{
+        font-family:'Merriweather', serif;
+    }
+    .column1-part2-fonts{
+        font-family:'Merriweather', serif;
+    } 
+    .toggle_show1-only{
+        display: none;
+    }
+    .toggle_show2-only{
+        display: none;
+    }
+    .section2{
+        a{
+            text-decoration: none;
+            font-weight: bold;
+            padding-left: 10px;
+            color: rgb(131, 0, 0);
+        }
+        .section2-btn{
+            padding-top: 40px;
+            max-width: 40%;
+            position: relative;
+            border-bottom: 2px solid rgb(41, 5, 204);
+            align-items: center;
+            cursor:pointer;
+            svg{
+                padding-right: 25px;
+                fill: rgb(8, 54, 182);
+                height: 25px;
+                width: 25px;
+                background-position: center;
+                vertical-align:middle;
+                display: inline-block;
+                position:relative;
+            }
+            svg:hover{
+                transition: transform 0.25 s ease;
+                transform: scale(1.50); // help to scale the eliment
+            
+            }
+        }
+        .section2-p2{
+            display: none;
+        }
+    }
+}
+//tab view
+@media screen and (min-width: 1024px) {
+    .main-div{
+        .toggleItem-column {
+            padding:30px;
+            align-items: center;
+        }
+        .toggleItem-row1{
+            display: flex;
+            align-items: center;
+            padding-left: 130px;
+            padding-right: 130px;
+            .toggleBtn-c1-p1{
+                position: relative;
+                background-color: #fff;
+                border: 2px solid rgb(41, 5, 204);
+                border-radius: 4px;
+                align-items: center;
+                cursor:pointer;
+                svg{
+                    fill: rgb(8, 54, 182);
+                    height: 25px;
+                    width: 25px;
+                    background-position: center;
+                    vertical-align:middle;
+                    display: inline-block;
+                }
+                svg:hover{
+                    transition: transform 0.25 s ease;
+                    transform: scale(1.50); // help to scale the eliment
+                }
+                
+                a{
+                    text-decoration: none;
+                    font-weight: bold;
+                    padding-left: 10px;
+                    color: #000;
+                }
+            }
+        }
+        .toggleItem-row1{
+            display: flex;
+            align-items: center;
+            padding-left: 140px;
+            padding-right: 140px;
+        }
+    }
+    .hr-style{
+        width: 80%;
+    }
+}
+
+
